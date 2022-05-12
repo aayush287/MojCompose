@@ -1,0 +1,73 @@
+# 2022-04-25T02:41:27.025Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "ExampleStartupBenchmark"
+    test_package: "coding.universe.benchmark"
+    test_method: "startup"
+    start_time {
+      seconds: 1650854453
+      nanos: 933000000
+    }
+    end_time {
+      seconds: 1650854486
+      nanos: 432000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.RuntimeException: Failed to compile coding.universe.mojcompose (Error: Failed to cpmpile !\n)\nat androidx.benchmark.macro.CompilationModeKt.compile(CompilationMode.kt:172)\nat androidx.benchmark.macro.MacrobenchmarkKt.macrobenchmark(Macrobenchmark.kt:129)\nat androidx.benchmark.macro.MacrobenchmarkKt.macrobenchmarkWithStartupMode(Macrobenchmark.kt:241)\nat androidx.benchmark.macro.junit4.MacrobenchmarkRule.measureRepeated(MacrobenchmarkRule.kt:68)\nat androidx.benchmark.macro.junit4.MacrobenchmarkRule.measureRepeated$default(MacrobenchmarkRule.kt:58)\nat coding.universe.benchmark.ExampleStartupBenchmark.startup(ExampleStartupBenchmark.kt:30)"
+    error_type: "java.lang.RuntimeException"
+    stack_trace: "java.lang.RuntimeException: Failed to compile coding.universe.mojcompose (Error: Failed to cpmpile !\n)\nat androidx.benchmark.macro.CompilationModeKt.compile(CompilationMode.kt:172)\nat androidx.benchmark.macro.MacrobenchmarkKt.macrobenchmark(Macrobenchmark.kt:129)\nat androidx.benchmark.macro.MacrobenchmarkKt.macrobenchmarkWithStartupMode(Macrobenchmark.kt:241)\nat androidx.benchmark.macro.junit4.MacrobenchmarkRule.measureRepeated(MacrobenchmarkRule.kt:68)\nat androidx.benchmark.macro.junit4.MacrobenchmarkRule.measureRepeated$default(MacrobenchmarkRule.kt:58)\nat coding.universe.benchmark.ExampleStartupBenchmark.startup(ExampleStartupBenchmark.kt:30)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/outputs/androidTest-results/connected/DN2101 - 11/logcat-coding.universe.benchmark.ExampleStartupBenchmark-startup.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/outputs/androidTest-results/connected/DN2101 - 11/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/outputs/androidTest-results/connected/DN2101 - 11/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/outputs/androidTest-results/connected/DN2101 - 11/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/outputs/androidTest-results/connected/DN2101 - 11/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
