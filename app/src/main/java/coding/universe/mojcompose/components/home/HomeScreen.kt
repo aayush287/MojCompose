@@ -3,7 +3,13 @@ package coding.universe.mojcompose.components.home
 
 import android.content.Context
 import android.net.Uri
+import android.text.Layout
 import android.util.Log
+import android.view.View
+import android.view.ViewGroup
+import android.widget.FrameLayout
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.LinearEasing
@@ -29,8 +35,13 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.ExperimentalUnitApi
+import androidx.compose.ui.unit.TextUnit
+import androidx.compose.ui.unit.TextUnitType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.viewinterop.AndroidView
+import androidx.core.content.ContextCompat
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.repeatOnLifecycle
@@ -49,9 +60,12 @@ import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.MediaItem
 import com.google.android.exoplayer2.Player
 import com.google.android.exoplayer2.source.ProgressiveMediaSource
+import com.google.android.exoplayer2.upstream.DataSource
+import com.google.android.exoplayer2.upstream.DefaultDataSource
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.distinctUntilChanged
 
 private const val TAG = "HomeScreen"
 
@@ -97,24 +111,63 @@ internal fun HomeScreen(
     mojInteractionEvents: (MojHomeInteractionEvents) -> Unit
 ) {
     LogCompositions(tag = "HomeScreen")
-    val bottomBarHeight = 50.dp
     val pagerState = rememberPagerState(0)
-    when (homeViewState) {
-        is HomeViewState.Finished -> {
-            val videos = homeViewState.videos ?: emptyList()
+//    LaunchedEffect(pagerState) {
+//        snapshotFlow { pagerState.currentPage }.distinctUntilChanged().collect { page ->
+//            // do your stuff with selected page
+//            Log.d(TAG, "HomeScreen: Testing -- here - $page")
+//        }
+//    }
 
+
+//    when (homeViewState) {
+//        is HomeViewState.Finished -> {
+////            var videos = homeViewState.videos ?: emptyList()
+            val albums = AlbumsDataProvider.albums
             VerticalPager(
-                count = videos.size - 1,
-                state = pagerState,
+                count = albums.size - 1,
+                state = pagerState
             ) {
-                val videoData = videos[this.currentPage]
-                val isSelected = pagerState.currentPage == this.currentPage
-                PagerItem(videoData, isSelected, mojInteractionEvents)
+                val videoData = albums[this.currentPage]
+//                val isSelected = pagerState.currentPage == this.currentPage
+//                PagerItem(videoData, isSelected, mojInteractionEvents)
+                TestingVerticalPager(currentPage)
             }
 
+//        }
+//    }
+
+
+}
+
+@OptIn(ExperimentalUnitApi::class)
+@Composable
+fun TestingVerticalPager(
+    pageNo: Int
+) {
+    AndroidView(factory ={
+        TextView(it).apply {
+            text = "Android View : $pageNo"
+            textSize = 32f
+            layoutParams = FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+            )
+            setTextColor( ContextCompat.getColor(it, R.color.white))
         }
     }
-
+    )
+    Spacer(modifier = Modifier.size(12.dp))
+    Box(modifier = Modifier
+        .padding(top = 32.dp)
+        .fillMaxSize()
+    ){
+        Text(
+            text = "Compose View: $pageNo",
+            color = Color.White,
+            fontSize = TextUnit(32F, TextUnitType.Sp)
+        )
+    }
 }
 
 
@@ -124,15 +177,18 @@ fun PagerItem(
     selected: Boolean,
     mojInteractionEvents: (MojHomeInteractionEvents) -> Unit,
 ) {
+    val context = LocalContext.current
+    LogCompositions(tag = "PagerItem - Testing")
     Box(
         modifier = Modifier
             .fillMaxSize()
             .clip(RoundedCornerShape(4.dp))
     ) {
-        MojPlayer(post.id, post.videoUrl, selected)
+        MojPlayer(context, post.id, post.videoUrl, selected)
         VideoOverLayUI(post, mojInteractionEvents)
     }
 }
+
 
 @Composable
 fun VideoOverLayUI(post: VideoData, mojInteractionEvents: (MojHomeInteractionEvents) -> Unit) {

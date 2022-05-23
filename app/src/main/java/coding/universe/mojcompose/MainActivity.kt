@@ -1,10 +1,12 @@
 package coding.universe.mojcompose
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
@@ -47,8 +49,9 @@ class MainActivity : ComponentActivity() {
 fun MojAppContent() {
     val navController = rememberNavController()
     Scaffold(
+        modifier = Modifier,
         bottomBar = { MojBottomNavigation(navController = navController) },
-        content = { MojBodyContent(navController = navController) }
+        content = { innerPadding -> MojBodyContent(navController = navController, modifier = Modifier.padding(bottom = innerPadding.calculateBottomPadding())) }
     )
 }
 
@@ -91,8 +94,8 @@ fun BottomBarIcon(screen: MojScreens) {
 }
 
 @Composable
-fun MojBodyContent(navController: NavHostController) {
-    NavHost(navController, startDestination = MojScreens.Home.route) {
+fun MojBodyContent(navController: NavHostController, modifier: Modifier) {
+    NavHost(navController, startDestination = MojScreens.Home.route, modifier = modifier) {
         composable(MojScreens.Home.route) {
             HomeScreen(mojInteractionEvents = { handleInteractionEvent(it, navController) })
         }

@@ -1,6 +1,7 @@
 package coding.universe.mojcompose.components.home
 
 
+import android.content.Context
 import android.net.Uri
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.widget.FrameLayout
@@ -18,10 +19,8 @@ import com.google.android.exoplayer2.upstream.DataSource
 import com.google.android.exoplayer2.upstream.DefaultDataSource
 
 @Composable
-fun MojPlayer(id: Int,url: String, selected: Boolean) {
-    LogCompositions(tag = "MojPlayer")
-
-    val context = LocalContext.current
+fun MojPlayer(context: Context, id: Int, url: String, selected: Boolean) {
+    LogCompositions(tag = "MojPlayer - Testing")
 
     val exoPlayer = remember {
         ExoPlayer.Builder(context)
