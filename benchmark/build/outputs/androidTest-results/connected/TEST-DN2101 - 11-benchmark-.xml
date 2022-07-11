@@ -1,18 +1,38 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="coding.universe.benchmark.ExampleStartupBenchmark" tests="1" failures="1" errors="0" skipped="0" time="33.03" timestamp="2022-04-25T02:41:26" hostname="localhost">
+<testsuite name="coding.universe.benchmark.ExampleStartupBenchmark" tests="1" failures="1" errors="0" skipped="0" time="1.606" timestamp="2022-06-01T13:04:20" hostname="localhost">
   <properties>
     <property name="device" value="DN2101 - 11" />
     <property name="flavor" value="" />
     <property name="project" value="benchmark" />
   </properties>
-  <testcase name="startup" classname="coding.universe.benchmark.ExampleStartupBenchmark" time="32.549">
-    <failure>java.lang.RuntimeException: Failed to compile coding.universe.mojcompose (Error: Failed to cpmpile !
-)
-at androidx.benchmark.macro.CompilationModeKt.compile(CompilationMode.kt:172)
-at androidx.benchmark.macro.MacrobenchmarkKt.macrobenchmark(Macrobenchmark.kt:129)
-at androidx.benchmark.macro.MacrobenchmarkKt.macrobenchmarkWithStartupMode(Macrobenchmark.kt:241)
-at androidx.benchmark.macro.junit4.MacrobenchmarkRule.measureRepeated(MacrobenchmarkRule.kt:68)
-at androidx.benchmark.macro.junit4.MacrobenchmarkRule.measureRepeated$default(MacrobenchmarkRule.kt:58)
-at coding.universe.benchmark.ExampleStartupBenchmark.startup(ExampleStartupBenchmark.kt:30)</failure>
+  <testcase name="startup" classname="coding.universe.benchmark.ExampleStartupBenchmark" time="1.181">
+    <failure>junit.framework.AssertionFailedError: Failed to grant permissions, see logcat for details
+at junit.framework.Assert.fail(Assert.java:50)
+at androidx.test.runner.permission.PermissionRequester.requestPermissions(PermissionRequester.java:111)
+at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:133)
+at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:444)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2226)</failure>
   </testcase>
 </testsuite>

@@ -3,44 +3,44 @@
 3    package="coding.universe.benchmark" >
 4
 5    <uses-sdk
-5-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:6:5-8:41
+5-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:6:5-8:41
 6        android:minSdkVersion="21"
-6-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:7:9-35
+6-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:7:9-35
 7        android:targetSdkVersion="31" />
-7-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:8:9-38
+7-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:8:9-38
 8
 9    <queries>
-9-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:10:5-12:15
+9-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:10:5-12:15
 10        <package android:name="coding.universe.mojcompose" />
-10-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:11:9-62
-10-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:11:18-59
+10-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:11:9-62
+10-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:11:18-59
 11        <package android:name="androidx.test.orchestrator" />
-11-->[androidx.test:runner:1.4.0] /Users/warlock/.gradle/caches/transforms-3/0712f143d05f3d8cf5dfa154006b7e5e/transformed/runner-1.4.0/AndroidManifest.xml:25:9-62
-11-->[androidx.test:runner:1.4.0] /Users/warlock/.gradle/caches/transforms-3/0712f143d05f3d8cf5dfa154006b7e5e/transformed/runner-1.4.0/AndroidManifest.xml:25:18-59
+11-->[androidx.test:runner:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/11475657082d9a51aa0155c35af47999/transformed/runner-1.4.0/AndroidManifest.xml:25:9-62
+11-->[androidx.test:runner:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/11475657082d9a51aa0155c35af47999/transformed/runner-1.4.0/AndroidManifest.xml:25:18-59
 12        <package android:name="androidx.test.services" />
-12-->[androidx.test:runner:1.4.0] /Users/warlock/.gradle/caches/transforms-3/0712f143d05f3d8cf5dfa154006b7e5e/transformed/runner-1.4.0/AndroidManifest.xml:26:9-58
-12-->[androidx.test:runner:1.4.0] /Users/warlock/.gradle/caches/transforms-3/0712f143d05f3d8cf5dfa154006b7e5e/transformed/runner-1.4.0/AndroidManifest.xml:26:18-55
+12-->[androidx.test:runner:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/11475657082d9a51aa0155c35af47999/transformed/runner-1.4.0/AndroidManifest.xml:26:9-58
+12-->[androidx.test:runner:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/11475657082d9a51aa0155c35af47999/transformed/runner-1.4.0/AndroidManifest.xml:26:18-55
 13        <package android:name="com.google.android.apps.common.testing.services" />
-13-->[androidx.test:runner:1.4.0] /Users/warlock/.gradle/caches/transforms-3/0712f143d05f3d8cf5dfa154006b7e5e/transformed/runner-1.4.0/AndroidManifest.xml:27:9-83
-13-->[androidx.test:runner:1.4.0] /Users/warlock/.gradle/caches/transforms-3/0712f143d05f3d8cf5dfa154006b7e5e/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
+13-->[androidx.test:runner:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/11475657082d9a51aa0155c35af47999/transformed/runner-1.4.0/AndroidManifest.xml:27:9-83
+13-->[androidx.test:runner:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/11475657082d9a51aa0155c35af47999/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
 14    </queries>
 15
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:14:5-16:40
-16-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:15:9-65
+16-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:14:5-16:40
+16-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:15:9-65
 17
 18    <instrumentation
-18-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:18:5-23:61
+18-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:18:5-23:61
 19        android:name="androidx.test.runner.AndroidJUnitRunner"
-19-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:19:9-63
+19-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:19:9-63
 20        android:functionalTest="false"
-20-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:20:9-39
+20-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:20:9-39
 21        android:handleProfiling="false"
-21-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:21:9-40
+21-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:21:9-40
 22        android:label="Tests for coding.universe.benchmark"
-22-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:22:9-60
+22-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:22:9-60
 23        android:targetPackage="coding.universe.benchmark" />
-23-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:23:9-58
+23-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:23:9-58
 24
 25    <!--
 26    QUERY_ALL_PACKAGES is used to enable macrobenchmarks to read package information from
@@ -51,105 +51,105 @@
 31    misconfiguration.
 32    -->
 33    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-33-->[androidx.benchmark:benchmark-macro:1.1.0-alpha03] /Users/warlock/.gradle/caches/transforms-3/097bf7927213c6b48738bfdcb4de6024/transformed/benchmark-macro-1.1.0-alpha03/AndroidManifest.xml:33:5-35:53
-33-->[androidx.benchmark:benchmark-macro:1.1.0-alpha03] /Users/warlock/.gradle/caches/transforms-3/097bf7927213c6b48738bfdcb4de6024/transformed/benchmark-macro-1.1.0-alpha03/AndroidManifest.xml:34:9-61
+33-->[androidx.benchmark:benchmark-macro:1.1.0-alpha03] /Users/aayushchaudhary/.gradle/caches/transforms-3/ec2bb30b49513b37e49e816810b09d3e/transformed/benchmark-macro-1.1.0-alpha03/AndroidManifest.xml:33:5-35:53
+33-->[androidx.benchmark:benchmark-macro:1.1.0-alpha03] /Users/aayushchaudhary/.gradle/caches/transforms-3/ec2bb30b49513b37e49e816810b09d3e/transformed/benchmark-macro-1.1.0-alpha03/AndroidManifest.xml:34:9-61
 34    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 35    <uses-permission android:name="android.permission.REORDER_TASKS" />
-35-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:24:5-72
-35-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:24:22-69
+35-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:24:5-72
+35-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:24:22-69
 36
 37    <application android:debuggable="true" >
-37-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:25:5-27:19
+37-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:25:5-27:19
 38        <uses-library android:name="android.test.runner" />
-38-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:26:9-60
-38-->/Users/warlock/AndroidStudioProjects/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest15579451481277060599.xml:26:23-57
+38-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:26:9-60
+38-->/Users/aayushchaudhary/Desktop/MojCompose/benchmark/build/intermediates/tmp/manifest/benchmark/tempFile2ProcessTestManifest1786771512284852813.xml:26:23-57
 39        <!-- Activity used to block background content while benchmarks are running -->
 40        <activity
-40-->[androidx.benchmark:benchmark-common:1.1.0-alpha03] /Users/warlock/.gradle/caches/transforms-3/da422ccc7da3ff92806affb77debbcc5/transformed/benchmark-common-1.1.0-alpha03/AndroidManifest.xml:34:9-37:20
+40-->[androidx.benchmark:benchmark-common:1.1.0-alpha03] /Users/aayushchaudhary/.gradle/caches/transforms-3/db5913065fda4765082b4edcb8ba69c4/transformed/benchmark-common-1.1.0-alpha03/AndroidManifest.xml:34:9-37:20
 41            android:name="androidx.benchmark.IsolationActivity"
-41-->[androidx.benchmark:benchmark-common:1.1.0-alpha03] /Users/warlock/.gradle/caches/transforms-3/da422ccc7da3ff92806affb77debbcc5/transformed/benchmark-common-1.1.0-alpha03/AndroidManifest.xml:35:13-64
+41-->[androidx.benchmark:benchmark-common:1.1.0-alpha03] /Users/aayushchaudhary/.gradle/caches/transforms-3/db5913065fda4765082b4edcb8ba69c4/transformed/benchmark-common-1.1.0-alpha03/AndroidManifest.xml:35:13-64
 42            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
-42-->[androidx.benchmark:benchmark-common:1.1.0-alpha03] /Users/warlock/.gradle/caches/transforms-3/da422ccc7da3ff92806affb77debbcc5/transformed/benchmark-common-1.1.0-alpha03/AndroidManifest.xml:36:13-77
+42-->[androidx.benchmark:benchmark-common:1.1.0-alpha03] /Users/aayushchaudhary/.gradle/caches/transforms-3/db5913065fda4765082b4edcb8ba69c4/transformed/benchmark-common-1.1.0-alpha03/AndroidManifest.xml:36:13-77
 43        </activity>
 44        <activity
-44-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:27:9-34:20
+44-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:27:9-34:20
 45            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-45-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:28:13-99
+45-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:28:13-99
 46            android:exported="true"
-46-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:29:13-36
+46-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:29:13-36
 47            android:theme="@android:style/Theme" >
-47-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:30:13-49
+47-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:30:13-49
 48            <intent-filter>
-48-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:31:13-33:29
+48-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:31:13-33:29
 49                <action android:name="android.intent.action.MAIN" />
-49-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:32:17-69
-49-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:32:25-66
+49-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:32:17-69
+49-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:32:25-66
 50            </intent-filter>
 51        </activity>
 52        <activity
-52-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:35:9-42:20
+52-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:35:9-42:20
 53            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-53-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:36:13-95
+53-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:36:13-95
 54            android:exported="true"
-54-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:37:13-36
+54-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:37:13-36
 55            android:theme="@android:style/Theme" >
-55-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:38:13-49
+55-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:38:13-49
 56            <intent-filter>
-56-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:31:13-33:29
+56-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:31:13-33:29
 57                <action android:name="android.intent.action.MAIN" />
-57-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:32:17-69
-57-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:32:25-66
+57-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:32:17-69
+57-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:32:25-66
 58            </intent-filter>
 59        </activity>
 60        <activity
-60-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:43:9-50:20
+60-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:43:9-50:20
 61            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-61-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:44:13-103
+61-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:44:13-103
 62            android:exported="true"
-62-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:45:13-36
+62-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:45:13-36
 63            android:theme="@android:style/Theme.Dialog" >
-63-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:46:13-56
+63-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:46:13-56
 64            <intent-filter>
-64-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:31:13-33:29
+64-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:31:13-33:29
 65                <action android:name="android.intent.action.MAIN" />
-65-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:32:17-69
-65-->[androidx.test:core:1.4.0] /Users/warlock/.gradle/caches/transforms-3/d0c9de8f34af6b7ebff7f4fe0e9710ff/transformed/core-1.4.0/AndroidManifest.xml:32:25-66
+65-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:32:17-69
+65-->[androidx.test:core:1.4.0] /Users/aayushchaudhary/.gradle/caches/transforms-3/7b288081d6f5c7bac1d3ab6c2ca58d42/transformed/core-1.4.0/AndroidManifest.xml:32:25-66
 66            </intent-filter>
 67        </activity>
 68
 69        <provider
-69-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:26:9-34:20
+69-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:26:9-34:20
 70            android:name="androidx.startup.InitializationProvider"
-70-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:27:13-67
+70-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:27:13-67
 71            android:authorities="coding.universe.benchmark.androidx-startup"
-71-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:28:13-68
+71-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:28:13-68
 72            android:exported="false" >
-72-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:29:13-37
+72-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:29:13-37
 73            <meta-data
-73-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:31:13-33:52
+73-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:31:13-33:52
 74                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-74-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:32:17-85
+74-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:32:17-85
 75                android:value="androidx.startup" />
-75-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:33:17-49
+75-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:33:17-49
 76        </provider>
 77
 78        <receiver
-78-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:36:9-45:20
+78-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:36:9-45:20
 79            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-79-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:37:13-76
+79-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:37:13-76
 80            android:directBootAware="false"
-80-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:38:13-44
+80-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:38:13-44
 81            android:enabled="true"
-81-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:39:13-35
+81-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:39:13-35
 82            android:exported="true"
-82-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:40:13-36
+82-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:40:13-36
 83            android:permission="android.permission.DUMP" >
-83-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:41:13-57
+83-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:41:13-57
 84            <intent-filter>
-84-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:42:13-44:29
+84-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:42:13-44:29
 85                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-85-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:43:17-91
-85-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/warlock/.gradle/caches/transforms-3/58c3d959b80251bbd9d2046befece07a/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:43:25-88
+85-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:43:17-91
+85-->[androidx.profileinstaller:profileinstaller:1.0.0-beta01] /Users/aayushchaudhary/.gradle/caches/transforms-3/af483f0883e57708649749de15d66ced/transformed/profileinstaller-1.0.0-beta01/AndroidManifest.xml:43:25-88
 86            </intent-filter>
 87        </receiver>
 88    </application>

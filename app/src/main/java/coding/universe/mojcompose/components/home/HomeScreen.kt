@@ -19,6 +19,7 @@ import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.material.Icon
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
@@ -112,64 +113,40 @@ internal fun HomeScreen(
 ) {
     LogCompositions(tag = "HomeScreen")
     val pagerState = rememberPagerState(0)
-//    LaunchedEffect(pagerState) {
-//        snapshotFlow { pagerState.currentPage }.distinctUntilChanged().collect { page ->
-//            // do your stuff with selected page
-//            Log.d(TAG, "HomeScreen: Testing -- here - $page")
-//        }
-//    }
 
-
-//    when (homeViewState) {
-//        is HomeViewState.Finished -> {
-////            var videos = homeViewState.videos ?: emptyList()
-            val albums = AlbumsDataProvider.albums
+    when (homeViewState) {
+        is HomeViewState.Finished -> {
+            val videos = homeViewState.videos ?: emptyList()
             VerticalPager(
-                count = albums.size - 1,
+                count = videos.size - 1,
                 state = pagerState
-            ) {
-                val videoData = albums[this.currentPage]
-//                val isSelected = pagerState.currentPage == this.currentPage
-//                PagerItem(videoData, isSelected, mojInteractionEvents)
-                TestingVerticalPager(currentPage)
+            ) { page: Int ->
+                    val videoData = videos[page]
+                    val isSelected = pagerState.currentPage == page
+                    PagerItem(videoData, isSelected, mojInteractionEvents)
             }
 
-//        }
-//    }
+        }
 
-
-}
-
-@OptIn(ExperimentalUnitApi::class)
-@Composable
-fun TestingVerticalPager(
-    pageNo: Int
-) {
-    AndroidView(factory ={
-        TextView(it).apply {
-            text = "Android View : $pageNo"
-            textSize = 32f
-            layoutParams = FrameLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT
-            )
-            setTextColor( ContextCompat.getColor(it, R.color.white))
+        is HomeViewState.Loading -> {
+            ShowProgressBar()
         }
     }
-    )
-    Spacer(modifier = Modifier.size(12.dp))
-    Box(modifier = Modifier
-        .padding(top = 32.dp)
-        .fillMaxSize()
-    ){
-        Text(
-            text = "Compose View: $pageNo",
-            color = Color.White,
-            fontSize = TextUnit(32F, TextUnitType.Sp)
-        )
-    }
 }
 
+@Composable
+fun ShowProgressBar(){
+    LogCompositions(tag = "ShowProgressBar")
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .clip(RoundedCornerShape(4.dp))
+    ) {
+       CircularProgressIndicator(
+          modifier =  Modifier.align(Alignment.Center)
+       )
+    }
+}
 
 @Composable
 fun PagerItem(
@@ -178,7 +155,7 @@ fun PagerItem(
     mojInteractionEvents: (MojHomeInteractionEvents) -> Unit,
 ) {
     val context = LocalContext.current
-    LogCompositions(tag = "PagerItem - Testing")
+    LogCompositions(tag = "PagerItem")
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -298,10 +275,6 @@ fun VideoInfoSection(modifier: Modifier, post: VideoData) {
                 .fillMaxWidth()
         )
         Text(text = post.caption, style = MaterialTheme.typography.body2)
-//        Text(
-//            text = "#${album.artist} #cool #moj #videos",
-//            style = MaterialTheme.typography.body2.copy(fontWeight = FontWeight.Medium)
-//        )
     }
 }
 

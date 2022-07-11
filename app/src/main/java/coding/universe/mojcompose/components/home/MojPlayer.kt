@@ -20,7 +20,6 @@ import com.google.android.exoplayer2.upstream.DefaultDataSource
 
 @Composable
 fun MojPlayer(context: Context, id: Int, url: String, selected: Boolean) {
-    LogCompositions(tag = "MojPlayer - Testing")
 
     val exoPlayer = remember {
         ExoPlayer.Builder(context)
@@ -45,7 +44,8 @@ fun MojPlayer(context: Context, id: Int, url: String, selected: Boolean) {
             resizeMode = AspectRatioFrameLayout.RESIZE_MODE_ZOOM
             layoutParams = FrameLayout.LayoutParams(MATCH_PARENT, MATCH_PARENT)
         }
-    })
+     }
+    )
 
 
     exoPlayer.playWhenReady = selected
